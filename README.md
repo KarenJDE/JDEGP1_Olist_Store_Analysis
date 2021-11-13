@@ -2,5 +2,7 @@
 
 ## Background
 
-* Create SQLite Database
-* Connection String:Driver={SQLite3 ODBC Driver};Database=\\Mac\Home\Desktop\Northwind.db
+## Prequsition
+* Create SQLite Database Connection
+  * Install ODBC Driver from http://www.ch-werner.de/sqliteodbc/
+  * Connection String: `Driver={SQLite3 ODBC Driver};Database=YourDatabase`
