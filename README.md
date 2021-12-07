@@ -6,8 +6,14 @@ Olist Store is the largest department store in Brazilian marketplaces which conn
  See more on website: www.olist.com
 
 ## Business Analysis Objectives
+The objectives of this business analysis are: 
+Feedback Sentiment Analysis: Evaluate the polarity of the tweets as customer feedback positive, negative or neutral.
+Clustering: Some customers did not write a review. But why are they happy or mad?
+Sales Prediction: With purchase date information you will be able to predict future sales.
+Delivery Performance: You will also be able to work through delivery performance and find ways to optimize delivery times.
 
 ## Requisition
 * Create SQLite Database Connection
   * Install ODBC Driver from http://www.ch-werner.de/sqliteodbc/
   * Connection String: `Driver={SQLite3 ODBC Driver};Database=YourDatabase`
+ 
