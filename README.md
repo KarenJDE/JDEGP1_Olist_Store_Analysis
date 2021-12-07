@@ -17,6 +17,10 @@ The objectives of this business analysis are:
 * Reviews Score Analysis: Evaluate the average scores by product category.
 * Delivery Performance: Work through delivery performance and find ways to optimize delivery times.
 
+## Problem Statement
+We have decided to use SQLite3 to implement the local database as it is very suitable for a small-scale project and easy to use. However, a member failed to making connection at the first time through ODBC Data Source. After doing research, we all successfully connected to Power BI by using connection string directly.
+The data source files are provided in csv format and have loaded into a SQLite database with .import method by using SQLite command line tool which is very convenient and efficient to make our database right off the bat.
+
 ## Requisition
 * Create SQLite Database Connection
   * Install ODBC Driver from http://www.ch-werner.de/sqliteodbc/
